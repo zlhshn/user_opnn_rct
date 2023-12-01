@@ -19,6 +19,12 @@ gap: .8rem;
 
 }
 
+.card:hover{
+
+    transform: scale(1.1);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+
+}
 
 .title{
     color: $Tropical-Fruit-Punch-4-hex;
