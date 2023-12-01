@@ -1,9 +1,18 @@
+import Header from "./components/Header"
+import Card  from   "./components/Card"
+import Footer from  "./components/Footer"
+
+import "./scss/app.scss"
+
 
 function App() {
   return (
-    <div >
-      <h1>React App</h1>
-    </div>
+   <>
+   <Header/>
+   <Card/>
+   <Footer/>
+   
+   </>
   );
 }
 

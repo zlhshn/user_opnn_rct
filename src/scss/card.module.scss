@@ -1,0 +1,64 @@
+@import "./variables";
+
+main{
+    display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+background-color:$Teal-Dream-5-hex; 
+}
+
+.card{
+@extend main;
+width: 250px;
+background-color: $Tropical-Fruit-Punch-5-hex;
+margin: 1rem;
+padding: 1.4rem;
+border-radius: 30px;
+gap: .8rem;
+
+}
+
+
+.title{
+    color: $Tropical-Fruit-Punch-4-hex;
+    margin-bottom: .5rem;
+
+}
+
+
+.job{
+
+color: white;
+
+}
+
+.img-style{
+width: 70px;
+height: 100px;
+border-radius: 50%;
+
+}
+
+.comment{
+color: $Tropical-Fruit-Punch-2-hex;
+
+}
+
+.btn-small{
+
+    border: none;
+    outline: none;
+    padding: .4rem 1rem;
+    border-radius: 30px;
+    margin-right: .5rem;
+    color: white;
+    background-color:$Tropical-Fruit-Punch-1-hex;
+
+}
+
+.btn-large{
+    @extend .btn-small;
+
+    background-color: $Teal-Dream-1-hex;
+}
